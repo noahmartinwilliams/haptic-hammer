@@ -1,0 +1,15 @@
+cost:volts:amps:torque:weight:site:company:url
+44.00:12:1.7:4.705:5.5272:robotshop.com:Phidgets:https://www.robotshop.com/en/12v-17a-667oz-in-nema-17-bipolar-stepper-motor.html
+22.14:12:0.68:0.88269:7.056:robotshop.com:SOYO:https://www.robotshop.com/en/12v-068a-125oz-in-unipolar-stepper-motor-double-shaft-nema-23.html
+44.00:12:1.7:2.94:4.9294:robotshop.com:Phidgets:https://www.robotshop.com/en/12v-17a-416oz-geared-bipolar-stepper-motor.html
+74.00:12:2.8:23.52:14.7:robotshop.com:Phidgets:https://www.robotshop.com/en/12v-28a-3333-oz-in-nema-23-bipolar-stepper-motor.html
+14.00:12:0.35:0.19772345:2.156:robotshop.com:Adafruit:https://www.robotshop.com/en/12v-350ma-28oz-in-nema-17-bipolar-stepper-motor.html
+17.95:3:1.7:0.48018:9.8:robotshop.com:Sparkfun:https://www.robotshop.com/en/3v-17a-68oz-in-stepper-motor.html
+15.95:12:0.33:0.2254:1.96:robotshop.com:Sparkfun:https://www.robotshop.com/en/sparkfun-stepper-motor-with-cable.html
+35.42:12:0.68:0.88269:7.056:robotshop.com:SOYO:https://www.robotshop.com/en/12v-068a-125oz-in-unipolar-stepper-motor-nema-23.html
+28.79:12:0.6:0.593:6.37:robotshop.com:SOYO:https://www.robotshop.com/en/rbsoy13-soyo-unipolar-stepper-motor.html
+40.31:6:1.2:0.593:6.37:robotshop.com:SOYO:https://www.robotshop.com/en/rbsoy09-soyo-unipolar-stepper-motor.html
+15.34:12:0.4:0.2542158:2.744:robotshop.com:SOYO:https://www.robotshop.com/en/rbsoy03-soyo-unipolar-stepper-motor.html
+29.00:3.2:2.8:1.899:10.78:robotshop.com:stepperonline:https://www.robotshop.com/en/nema-23-bipolar-269ozin-28a-57x57x76mm-4-wires-stepper-motor.html
+39.99:3.78:4.2:3.0:15.68:robotshop.com:stepperonline:https://www.robotshop.com/en/nema-23-bipolar-425ozin-42a-57x57x114mm-4-wires-stepper-motor.html
+15.34:6:0.8:0.2542158659:2.744:robotshop.com:SOYO:https://www.robotshop.com/en/rbsoy02-soyo-unipolar-stepper-motor.html

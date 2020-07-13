@@ -1,0 +1,4 @@
+1:18.99:sainsmart.com:sainsmart:https://www.sainsmart.com/products/mega-2560-r3-atmega2560-16au-arduino-compatible?variant=45100366932&msclkid=82967cadfba812b538e6225cd8a00ddb&utm_source=bing&utm_medium=cpc&utm_campaign=Shopping&utm_term=4575617643108710&utm_content=SainSmart%20Catalog
+6:17.99:robotshop.com:DFRobot:https://www.robotshop.com/en/tb6600-stepper-motor-driver.html
+3:48.00:robotshop.com:Phidgets:https://www.robotshop.com/en/12v-17a-667oz-in-nema-17-bipolar-stepper-motor.html
+2:74.00:robotshop.com:Phidgets:https://www.robotshop.com/en/12v-28a-3333-oz-in-nema-23-bipolar-stepper-motor.html
