@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/armature-two-right.obj-7ee0016f62da4cdd3eba10188398b018.mesh"
+
+[deps]
+
+files=[ "res://.import/armature-two-right.obj-7ee0016f62da4cdd3eba10188398b018.mesh" ]
+
+source_file="res://parts-blender/armature-two-right.obj"
+dest_files=[ "res://.import/armature-two-right.obj-7ee0016f62da4cdd3eba10188398b018.mesh", "res://.import/armature-two-right.obj-7ee0016f62da4cdd3eba10188398b018.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

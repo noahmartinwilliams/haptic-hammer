@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/u-plate-05.obj-7633b058de4e4aa2ad90b6045e6ffc6e.mesh"
+
+[deps]
+
+files=[ "res://.import/u-plate-05.obj-7633b058de4e4aa2ad90b6045e6ffc6e.mesh" ]
+
+source_file="res://parts-blender/u-plate-05.obj"
+dest_files=[ "res://.import/u-plate-05.obj-7633b058de4e4aa2ad90b6045e6ffc6e.mesh", "res://.import/u-plate-05.obj-7633b058de4e4aa2ad90b6045e6ffc6e.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

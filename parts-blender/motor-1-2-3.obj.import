@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/motor-1-2-3.obj-3daed5b3ceb4aeb3b11da9d7dbe3ea73.mesh"
+
+[deps]
+
+files=[ "res://.import/motor-1-2-3.obj-3daed5b3ceb4aeb3b11da9d7dbe3ea73.mesh" ]
+
+source_file="res://parts-blender/motor-1-2-3.obj"
+dest_files=[ "res://.import/motor-1-2-3.obj-3daed5b3ceb4aeb3b11da9d7dbe3ea73.mesh", "res://.import/motor-1-2-3.obj-3daed5b3ceb4aeb3b11da9d7dbe3ea73.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

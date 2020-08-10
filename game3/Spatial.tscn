@@ -1,0 +1,64 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://Spatial.gd" type="Script" id=1]
+[ext_resource path="res://hammer.dae" type="PackedScene" id=2]
+[ext_resource path="res://wood2.tscn" type="PackedScene" id=3]
+[ext_resource path="res://nail.dae" type="PackedScene" id=4]
+[ext_resource path="res://Area.gd" type="Script" id=5]
+[ext_resource path="res://hammer3.ogg" type="AudioStream" id=6]
+
+[sub_resource type="CylinderShape" id=1]
+
+[sub_resource type="CylinderShape" id=2]
+
+[node name="Spatial" type="Spatial"]
+
+[node name="ViewportContainer" type="ViewportContainer" parent="."]
+anchor_right = 0.488
+anchor_bottom = 0.833
+margin_right = 500.288
+margin_bottom = 500.2
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Viewport" type="Viewport" parent="ViewportContainer"]
+size = Vector2( 700, 700 )
+handle_input_locally = false
+render_target_update_mode = 3
+
+[node name="Camera" type="Camera" parent="ViewportContainer/Viewport"]
+transform = Transform( 0.469009, 0, -0.883193, 0, 1, 0, 0.883193, 0, 0.469009, 4.08182, 4.28508, 3.36707 )
+current = true
+
+[node name="win" type="RichTextLabel" parent="ViewportContainer"]
+margin_right = 500.0
+margin_bottom = 500.0
+visible_characters = 20
+fit_content_height = true
+
+[node name="Spatial" type="Spatial" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.31991, 0 )
+script = ExtResource( 1 )
+
+[node name="Area" type="Area" parent="Spatial"]
+
+[node name="CollisionShape" type="CollisionShape" parent="Spatial/Area"]
+shape = SubResource( 1 )
+
+[node name="hammer" parent="Spatial/Area/CollisionShape" instance=ExtResource( 2 )]
+
+[node name="wood2" parent="." instance=ExtResource( 3 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 16.8591, 0, 0 )
+
+[node name="Area2" type="Area" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 15.314, 0, 0 )
+script = ExtResource( 5 )
+
+[node name="CollisionShape" type="CollisionShape" parent="Area2"]
+shape = SubResource( 2 )
+
+[node name="nail" parent="Area2/CollisionShape" instance=ExtResource( 4 )]
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 6 )
