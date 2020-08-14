@@ -86,7 +86,7 @@ func _process(_delta):
 	#x =x +100.0
 	y=y+100.0
 	var v = Vector3(z,y,x)
-	v=v/100.0
+	v=v/75.0
 	#var v = Vector3(0.0, 0.0, 0.0)
 	#v=v / 1000.0
 	#v = v / 10000.0
